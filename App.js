@@ -9,7 +9,7 @@ export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name="Lista" component={ListaScreen} options={{ title: 'Produtos' }} />
+        <Stack.Screen name="series" component={ListaScreen} options={{ title: 'Séries' }} />
         <Stack.Screen name="Detalhe" component={DetalheScreen} options={{ title: 'Detalhes' }} />
       </Stack.Navigator>
     </NavigationContainer>

@@ -1,4 +1,3 @@
-import { useEffect, useState } from 'react';
 import {View, Text, Image, FlatList, TouchableOpacity, ActivityIndicator, StyleSheet} from 'react-native';
 
 const URL = 'https://api.tvmaze.com/shows';
@@ -56,7 +55,7 @@ export default function ListaScreen({ navigation }) {
               resizeMode="cover"
             />
           ) : (
-            <View style={{width: 90, height: 25, justifyContent: 'center', alignItems: 'center', backgroundColor: '#eee'}}>
+            <View style={{width: 90, height: 125, justifyContent: 'center', alignItems: 'center', backgroundColor: '#eee'}}>
               <Text>Sem imagem</Text>
             </View>
           )}
